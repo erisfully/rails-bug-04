@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   resources :task_lists, only: [] do
     resources :tasks
   end
+
 end
+
